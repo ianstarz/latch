@@ -1,4 +1,4 @@
-# Latch
+# Latch - Ember
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
@@ -13,9 +13,12 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* change into the new directory
+* change into the new ember directory
+* `npm install -g ember-cli`
 * `npm install`
 * `bower install`
+
+* GOTCHA: If your machine is behind a firewall you may get the error... `fatal: unable to connect to github.com: github.com[0: 192.30.252.130]` use https: `git config --global url."https://".insteadOf git://`
 
 ## Running / Development
 
